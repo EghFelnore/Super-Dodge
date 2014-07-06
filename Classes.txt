@@ -22,9 +22,9 @@ Super-Dodge (Using Greenfoot)
  *Settings (Controls, graphics, sound, etc.)
  *Enemy (Decor; bounces off walls)
 -'Game' Objects
- *Player
- *Enemies
- *Health
- *Pause
- *GameOver
- *Timer
+ *Player (Moves, has health, dodges enemies)
+ *Enemies (Many spawn; hurt player; bounce off border)
+ *Health (Displays health
+ *Pause (Shows what button is used to pause)
+ *GameOver (Displays when player dies)
+ *Timer (Shows how long player is alive)

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=void\ properlyMove()
+comment2.params=
+comment2.target=void\ randomlyMove()
+comment3.params=
+comment3.target=void\ checkForDiagonal()
+comment4.params=
+comment4.target=void\ isTouchingBorder()
+comment5.params=
+comment5.target=void\ randomizeDirection()
+numComments=6
