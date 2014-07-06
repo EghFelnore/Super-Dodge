@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * Bounces around the screen damaging the player
  * 
  * @author Kaleb Dykema 
- * @version 7/5/14
+ * @version 7/6/14
  */
 public class Enemy extends Actor
 {

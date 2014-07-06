@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The user plays this actor
  * 
  * @author Kaleb Dykema
- * @version 7/5/14
+ * @version 7/6/14
  */
 public class Player extends Actor
 {
@@ -55,6 +55,7 @@ public class Player extends Actor
     //Called by isEnemyTouching() if an enemy touches the player
     void die()
     {
+        getWorld().addObject(new GameOver(), 300, 100);
         getWorld().removeObject(this);
     }
 }
