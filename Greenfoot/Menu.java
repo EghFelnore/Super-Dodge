@@ -36,6 +36,7 @@ public class Menu extends World
         //Creating actors
         Title title = new Title();
         Play play = new Play();
+        Version version = new Version();
         
         //Addings enemies with a for loop
         for (int i = 1; i <= enemies; i++)
@@ -47,6 +48,7 @@ public class Menu extends World
         //Adding other actors
         addObject(title, 300, 100);
         addObject(play, 300, 200);
+        addObject(version, 20, height - 10);
     }
     
     //Get a random num

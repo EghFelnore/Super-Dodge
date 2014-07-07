@@ -39,7 +39,8 @@ public class Game extends World
     void addActors()
     {
         //Creating the actors
-        Player player = new Player();    
+        Player player = new Player();
+        Version version = new Version();
         
         //Addings the actors
         addObject(player, playerStartX, playerStartY);
@@ -72,6 +73,8 @@ public class Game extends World
                 }
             }
             while(!validSpawn);
+            //Adding version actor
+            addObject(version, 20, height - 10);
         }
     }
     

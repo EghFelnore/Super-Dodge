@@ -61,6 +61,7 @@ public class Player extends Actor
     void die()
     {
         getWorld().addObject(new GameOver(), 300, 100);
+        getWorld().addObject(new Replay(), 300, 200);
         getWorld().removeObject(this);
     }
 }
