@@ -18,7 +18,7 @@ public class Game extends World
     int enemies = 20;
     int enemyStartX;
     int enemyStartY;
-    int enemyPlayerSpawnDistance = 64;
+    int enemyPlayerSpawnDistance = 128;
     boolean validSpawn;
     
     //Constructor for objects of Game
