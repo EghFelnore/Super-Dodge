@@ -26,8 +26,9 @@ public class Menu extends World
         width = getWidth();
         height = getHeight();
         
-        //Calls the method addActors
+        //Calls the methods addActors and playSong
         addActors();
+        playSong();
     }
         
     //Adds all actors used in the Title world
@@ -49,6 +50,12 @@ public class Menu extends World
         addObject(title, 300, 100);
         addObject(play, 300, 200);
         addObject(version, 20, height - 10);
+    }
+    
+    //Plays the menu song
+    void playSong()
+    {
+        Greenfoot.playSound("StartingSong.wav"); // Plays beginning song
     }
     
     //Get a random num

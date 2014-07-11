@@ -10,6 +10,7 @@ public class Enemy extends Actor
 {
     //Variables
     int speed = 2;
+    
     //1 is up, 2 is down, 3 is left, 4 is right. 5 is left and right, 6 is left and down, 7 is right and up, 8 is right and down.
     int direction = Greenfoot.getRandomNumber(7) + 1;
     

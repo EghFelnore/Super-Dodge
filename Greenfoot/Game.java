@@ -15,7 +15,7 @@ public class Game extends World
     int playerStartY = 200;
     
     //Used in spawning enemies
-    int enemies = 20;
+    private static int enemies = 20;
     int enemyStartX;
     int enemyStartY;
     int enemyPlayerSpawnDistance = 128;
@@ -41,6 +41,7 @@ public class Game extends World
         //Creating the actors
         Player player = new Player();
         Version version = new Version();
+        Timer timer = new Timer();
         
         //Addings the actors
         addObject(player, playerStartX, playerStartY);
@@ -75,6 +76,7 @@ public class Game extends World
             while(!validSpawn);
             //Adding version actor
             addObject(version, 20, height - 10);
+            addObject(timer, 50, 20);
         }
     }
     
